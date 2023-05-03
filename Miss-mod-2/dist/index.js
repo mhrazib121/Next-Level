@@ -1,4 +1,5 @@
 "use strict";
+// npx ts-node-dev --respawn ./src/index.ts
 const course = "Next level-5 course";
 let rollNumber = 123;
 // Implicit type declaration
