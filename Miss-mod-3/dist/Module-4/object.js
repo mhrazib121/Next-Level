@@ -14,4 +14,4 @@ class Animal {
 ;
 const dog = new Animal("german shepard", "dog", "ghew ghew");
 const cat = new Animal("Persian ", "cat", "Meaw Meaw");
-console.log(cat.makeSound());
+cat.makeSound();
