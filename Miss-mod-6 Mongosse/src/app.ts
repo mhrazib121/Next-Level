@@ -23,6 +23,6 @@ inserting data to mongodb
 
 
 
-app.use('/', useRouters)
+app.use('/api/v1/user', useRouters);
 
 export default app;
