@@ -22,3 +22,17 @@ const course3: { name: string, price: number } = {
 console.log(course2);
 
 console.log(course);
+
+$(document).on("ready", function () {
+    // code one
+})
+$(window).on("load", function () {
+    // code two
+})
+$("button").click(function () {
+    alert("clicked")
+})
+
+if ($(".some-selector").length) {
+    // run the code 
+}
